@@ -1,7 +1,4 @@
-﻿using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
-using System.Reflection;
-
-namespace OOGThinkOO3.Classes
+﻿namespace OOGThinkOO3.Classes
 {
     public class Vehicle
     {
