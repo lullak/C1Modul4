@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoJsonIntro", "DemoJsonIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsDemoGym", "WinFormsDemoGym\WinFormsDemoGym.csproj", "{EB8A45D2-887B-487B-9E20-76310FD67295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OO2", "OO2\OO2.csproj", "{A546A0BB-4ED8-419B-AF71-CFC7E6E64E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OO2", "OO2\OO2.csproj", "{A546A0BB-4ED8-419B-AF71-CFC7E6E64E3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsLinqDemo1", "WinFormsLinqDemo1\WinFormsLinqDemo1.csproj", "{B72EABF0-AD15-487F-A20E-3E8D78576D11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsLinq1", "WinFormsLinq1\WinFormsLinq1.csproj", "{E1562E20-2C05-443B-BD7D-55B75A523017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsLinq2", "WinFormsLinq2\WinFormsLinq2.csproj", "{D8F66F69-FF79-4359-B280-13500924372A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{A546A0BB-4ED8-419B-AF71-CFC7E6E64E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A546A0BB-4ED8-419B-AF71-CFC7E6E64E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A546A0BB-4ED8-419B-AF71-CFC7E6E64E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72EABF0-AD15-487F-A20E-3E8D78576D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72EABF0-AD15-487F-A20E-3E8D78576D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72EABF0-AD15-487F-A20E-3E8D78576D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72EABF0-AD15-487F-A20E-3E8D78576D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1562E20-2C05-443B-BD7D-55B75A523017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1562E20-2C05-443B-BD7D-55B75A523017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1562E20-2C05-443B-BD7D-55B75A523017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1562E20-2C05-443B-BD7D-55B75A523017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F66F69-FF79-4359-B280-13500924372A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F66F69-FF79-4359-B280-13500924372A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F66F69-FF79-4359-B280-13500924372A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F66F69-FF79-4359-B280-13500924372A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
