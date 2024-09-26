@@ -8,6 +8,7 @@ namespace WinFormsLinqDemo3
         {
             InitializeComponent();
 
+
             comboBoxSelection.Items.Add("Instruktör");
             comboBoxSelection.Items.Add("Passtyp");
         }
