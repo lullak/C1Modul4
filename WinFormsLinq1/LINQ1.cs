@@ -28,30 +28,47 @@ namespace WinFormsLinq1
             //          where bil.Contains("Opel")
             //          select bil;
 
-            //string carString = string.Join(", ", car);
-            //MessageBox.Show(carString);
+            //var car = bilar.Where(b => b == "Opel");
+
+            //string carString = string.Join(", ", result);
+            //MessageBox.Show(resultString);
 
 
-            //var car1 = from bil in bilar
+            //var car = from bil in bilar
             //          where bil.StartsWith("V")
             //          select bil;
 
-            //string carString1 = string.Join(", ", car1);
-            //MessageBox.Show(carString1);
+            //var car = bilar.Where(b => b.StartsWith("V"));
+
+            //string carString = string.Join(", ", car);
+            //MessageBox.Show(carString);
 
             //var car1 = from bil in bilar
             //           where bil.Contains("da")
             //           select bil;
 
+            //var car1 = bilar.Where(b => b.Contains("da"));
+
             //string carString1 = string.Join(", ", car1);
             //MessageBox.Show(carString1);
-            
-            var car1 = from bil in bilar
-                       where bil.StartsWith("M") || bil.EndsWith("i")
-                       select bil;
 
-            string carString1 = string.Join(", ", car1);
-            MessageBox.Show(carString1);
+            //var car1 = from bil in bilar
+            //           where bil.StartsWith("M") || bil.EndsWith("i")
+            //           select bil;
+
+            //var car1 = bilar.Where(b => b.StartsWith("M") || b.EndsWith("i")).ToList();
+
+            //string cars = "";
+            //foreach (var b in car1)
+            //{
+            //    cars += $"{b}, ";
+            //}
+            //MessageBox.Show(cars);
+
+
+
+            //string carString1 = string.Join(", ", car1);
+            //MessageBox.Show(carString1);
 
         }
     }
