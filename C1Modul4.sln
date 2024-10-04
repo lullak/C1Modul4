@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsLinqDemo3", "WinFor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsExtensionsDemo1", "WinFormsExtensionsDemo1\WinFormsExtensionsDemo1.csproj", "{6DD33F0A-51BF-4BFD-887F-F7DF3A0E94D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsLambdaDemo1", "WinFormsLambdaDemo1\WinFormsLambdaDemo1.csproj", "{04A42B33-B372-485D-81FF-117C39334D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsLambdaDemo1", "WinFormsLambdaDemo1\WinFormsLambdaDemo1.csproj", "{04A42B33-B372-485D-81FF-117C39334D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CALinq3", "CALinq3\CALinq3.csproj", "{C55AAA38-C90E-4315-B27E-3FC0F8D510C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{04A42B33-B372-485D-81FF-117C39334D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04A42B33-B372-485D-81FF-117C39334D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04A42B33-B372-485D-81FF-117C39334D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55AAA38-C90E-4315-B27E-3FC0F8D510C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55AAA38-C90E-4315-B27E-3FC0F8D510C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55AAA38-C90E-4315-B27E-3FC0F8D510C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55AAA38-C90E-4315-B27E-3FC0F8D510C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
