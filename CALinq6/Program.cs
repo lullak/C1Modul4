@@ -37,14 +37,18 @@ namespace CALinq6
             //    Console.WriteLine(list);
             //}
 
-            //string fullText = "Flygande beckasiner söka whila på mjuka tufvor";
-            //var vokaler = (from vokal in fullText
-            //               where "AEIOUYÅÄÖ".Contains(char.ToUpper(vokal))
-            //               select vokal).Count();
-            //Console.WriteLine(vokaler);
+            string fullText = "Flygande beckasiner söka whila på mjuka tufvor";
+            var vokaler = (from vokal in fullText
+                           where "AEIOUYÅÄÖ".Contains(char.ToUpper(vokal))
+                           select vokal).Count();
+            Console.WriteLine(vokaler);
 
-            //var vokaler1 = fullText.Where(v => "AEIOUYÅÄÖ".Contains(char.ToUpper(v))).Count();
-            //Console.WriteLine(vokaler1);
+            var vokaler1 = fullText.Where(v => "AEIOUYÅÄÖ".Contains(char.ToUpper(v))).ToList();
+            Console.WriteLine(String.Join(",", vokaler1));
+            foreach (var vokal in vokaler1) 
+            {
+                Console.WriteLine(vokal);
+            }
 
             var miljonen = Enumerable.Range(1,1000000).ToArray();
             var miljonen1 = Enumerable.Range(1, 1000000).ToList();

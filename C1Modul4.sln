@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsExtensionsDemo1", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsLambdaDemo1", "WinFormsLambdaDemo1\WinFormsLambdaDemo1.csproj", "{04A42B33-B372-485D-81FF-117C39334D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CALinq3", "CALinq3\CALinq3.csproj", "{C55AAA38-C90E-4315-B27E-3FC0F8D510C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CALinq3", "CALinq3\CALinq3.csproj", "{C55AAA38-C90E-4315-B27E-3FC0F8D510C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CALinq6", "CALinq6\CALinq6.csproj", "{986DB11B-B736-4A8D-990B-D89817D9F59B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CALinq6", "CALinq6\CALinq6.csproj", "{986DB11B-B736-4A8D-990B-D89817D9F59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OO3", "OO3\OO3.csproj", "{34DBE4C8-D252-4D18-8FBC-85AF65366BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{986DB11B-B736-4A8D-990B-D89817D9F59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986DB11B-B736-4A8D-990B-D89817D9F59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986DB11B-B736-4A8D-990B-D89817D9F59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DBE4C8-D252-4D18-8FBC-85AF65366BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DBE4C8-D252-4D18-8FBC-85AF65366BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DBE4C8-D252-4D18-8FBC-85AF65366BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DBE4C8-D252-4D18-8FBC-85AF65366BEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
